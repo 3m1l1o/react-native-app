@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import { Text, StyleSheet, View, Image } from "react-native";
 import { clockRunning } from "react-native-reanimated";
 
