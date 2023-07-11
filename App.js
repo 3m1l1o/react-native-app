@@ -7,7 +7,8 @@ import ImageScreen from "./src/screens/ImageScreen";
 import ImageDetails from "./src/components/imageDetails";
 import CounterScreen from "./src/screens/CounterScreen";
 import ColorScreen from "./src/screens/colorScreen";
-import SquareScreen from "./src/screens/SquareScreen";
+import SquareScreeng from "./src/screens/SquareScreen";
+
 
 const navigator = createStackNavigator(
   {

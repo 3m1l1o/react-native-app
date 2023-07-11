@@ -9,7 +9,7 @@ const ColorScreen = () => {
                 setColors([...colors, randomRgb()]);
             }} />
             <FlatList
-            keyExtractor={ ( item )=> item }
+                keyExtractor={item => item}
                 data={colors}
                 renderItem={({ item }) => {
                     return <View style={{ height: 100, whidth: 100, backgroundColor: item }} />
