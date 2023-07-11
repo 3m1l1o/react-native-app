@@ -4,10 +4,10 @@ import HomeScreen from "./src/screens/HomeScreen";
 import componentsScreen from "./src/screens/componentsScreen";
 import ListScreen from "./src/screens/listScreen";
 import ImageScreen from "./src/screens/ImageScreen";
-import ImageDetails from "./src/components/imageDetails";
+//import ImageDetails from "./src/components/imageDetails";
 import CounterScreen from "./src/screens/CounterScreen";
 import ColorScreen from "./src/screens/colorScreen";
-import SquareScreeng from "./src/screens/SquareScreen";
+import SquareScreen from "./src/screens/SquareScreen";
 
 
 const navigator = createStackNavigator(
@@ -28,5 +28,4 @@ const navigator = createStackNavigator(
     },
   }
 );
-
 export default createAppContainer(navigator);
