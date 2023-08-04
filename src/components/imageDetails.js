@@ -1,13 +1,13 @@
-import react from "react";
+import React from "react";
 import { Text, StyleSheet, View, Image } from "react-native";
-import { clockRunning } from "react-native-reanimated";
 
-const ImageDetails = ( { title, imageSource, score } ) =>{
+
+const ImageDetails = ( {  imageSource, title, score } ) =>{
     
     return (<View>
              <Image source={ imageSource }/>
              <Text>{ title }</Text>
-             <Text> score - { score }
+             <Text>Image score - { score }
              </Text>
              </View> 
 )};
